@@ -66,6 +66,9 @@ p {
     line-height: 1.4;
 }
 
+/* Home Page Styles */
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -199,4 +202,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page Styles */
+
+section.top-about {
+    padding: 0 15px 15px 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+
+}
+
+section.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 20px 20px 30px 20px;
+}
+
+div.card h3 {
+    margin: 15px 0;
+}
+
+div.card button {
+    width: 100px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+section.bottom-about {
+    padding: 15px;
+    margin-bottom: 15px;
 }
