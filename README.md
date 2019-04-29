@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+ANSWER: It provides meaning to your content so it's easier for humans and machines to reason about.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+ANSWER: Display:block takes up an entire line, nothing can be put next to it, while display:inline has the ability to be set along-side another element.
 
 3. What are the 4 areas of the box model?
 
+ANSWER: Content, padding, border, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ANSWER: Align-items works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+ANSWER: Git allows you to take snapshots of your codebase while your're developing applications, so that if there is a mistake or for any reason you need to see what your codebase looked like earlier, you can go back in time and see how it was.
+You can also work on a team and not worry about accidently overwriting another developers code because there is an organized system of reviewing and merging codebases.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +63,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -100,7 +111,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
